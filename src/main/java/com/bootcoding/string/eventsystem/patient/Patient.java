@@ -7,7 +7,7 @@ public class Patient {
     private String name;
     private Date admissionDate;
     private Date dischargeDate;
-    private String desease;
+    private String disease;
     private double billingAmount;
 
     public String getName() {
@@ -34,12 +34,12 @@ public class Patient {
         this.dischargeDate = dischargeDate;
     }
 
-    public String getDesease() {
-        return desease;
+    public String getDisease() {
+        return disease;
     }
 
-    public void setDesease(String desease) {
-        this.desease = desease;
+    public void setDisease(String disease) {
+        this.disease = disease;
     }
 
     public double getBillingAmount() {

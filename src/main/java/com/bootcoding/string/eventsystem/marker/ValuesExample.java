@@ -1,10 +1,12 @@
 package com.bootcoding.string.eventsystem.marker;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Set;
 
+@Component
 public class ValuesExample {
     @Value("${app.isNumber}")
     private boolean numberExists;

@@ -20,7 +20,7 @@ public class PatientService {
         Patient p = new Patient();
         p.setName("Name 1");
         p.setAdmissionDate(new Date());
-        p.setDesease("Viral 1");
+        p.setDisease("Viral 1");
         p.setDischargeDate(new Date());
         p.setBillingAmount(1000);
         return p;
@@ -54,7 +54,7 @@ public class PatientService {
     private void writePatient(FileWriter fw, Patient p) {
         String row = p.getName() + "," +
                 p.getAdmissionDate() + "," +
-                p.getDesease() + "," +
+                p.getDisease() + "," +
                 p.getDischargeDate() + "," +
                 p.getBillingAmount() + "\n";
 
